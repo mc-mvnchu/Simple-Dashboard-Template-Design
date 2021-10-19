@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Admin DashBoard | ReDesign</title>
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+    </head>
+    <body>
+        <!-- Navigation Container -->
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
+                            <span class="title">Brand Name</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                            <span class="title">Customers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                            <span class="title">Message</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">Help</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <span class="title">Password</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                            <span class="title">Sign Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Main -->
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <ion-icon name="menu"></ion-icon>
+                    </div>
+                    <!-- Search -->
+                    <div class="search">
+                        <label>
+                            <input type="text" placeholder="Search here...">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                    <!-- userImg -->
+                    <div class="user">
+                        <img src="./images/user.png" alt="User Image">
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="cardBox">
+                    <!-- Views -->
+                    <div class="card">
+                        <div> 
+                            <div class="numbers">1,504</div>
+                            <div class="cardName">Daily Views</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Sales -->
+                    <div class="card">
+                        <div>
+                            <div class="numbers">80</div>
+                            <div class="cardName">Sales</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Comments -->
+                    <div class="card">
+                        <div>
+                            <div class="numbers">284</div>
+                            <div class="cardName">Comments</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="chatbubbles-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Earnings -->
+                    <div class="card">
+                        <div>
+                            <div class="numbers">$7,842</div>
+                            <div class="cardName">Earnings</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="cash-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <!-- Details list -->
+                <div class="details">
+                    <!-- Order Details list -->
+                    <div class="recentOrders">
+                        <div class="cardHeader">
+                            <h2>Recent Orders</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                        <table>
+                            <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payments</td>
+                                <td>Status</td>
+                            </tr>
+                            </thead>
+                            <!-- Order Details -->
+                            <tbody>
+                                <!-- Refrigerator -->
+                                <tr>
+                                    <td>Star Refrigerator</td>
+                                    <td>$1200</td>
+                                    <td>Paid</td>
+                                    <td><span class="status delivered">Delivered</span></td>
+                                </tr>
+                                <!-- Window Coolers -->
+                                <tr>
+                                    <td>Window Coolers</td>
+                                    <td>$110</td>
+                                    <td>Due</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+                                <!-- Speakers -->
+                                <tr>
+                                    <td>Speakers</td>
+                                    <td>$620</td>
+                                    <td>Paid</td>
+                                    <td><span class="status return">Return</span></td>
+                                </tr>
+                                <!-- Hp Laptop -->
+                                <tr>
+                                    <td>Hp Laptop</td>
+                                    <td>$1100</td>
+                                    <td>Due</td>
+                                    <td><span class="status inprogress">In Progress</span></td>
+                                </tr>
+                                <!-- Apple Watch -->
+                                <tr>
+                                    <td>Apple Watch</td>
+                                    <td>$1200</td>
+                                    <td>Paid</td>
+                                    <td><span class="status delivered">Delivered</span></td>
+                                </tr>
+                                <!-- Wall Fan -->
+                                <tr>
+                                    <td>Wall Fan</td>
+                                    <td>$360</td>
+                                    <td>Due</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+                                <!-- Adidas Shoes -->
+                                <tr>
+                                    <td>Adidas Shoes</td>
+                                    <td>$500</td>
+                                    <td>Due</td>
+                                    <td><span class="status return">Return</span></td>
+                                </tr>
+                                <!-- Denim Shirts -->
+                                <tr>
+                                    <td>Denim Shirts</td>
+                                    <td>$110</td>
+                                    <td>Due</td>
+                                    <td><span class="status inprogress">In Progress</span></td>
+                                </tr>
+                                <!-- Wall Fan -->
+                                <tr>
+                                    <td>Wall Fan</td>
+                                    <td>$360</td>
+                                    <td>Due</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+                                <!-- Adidas Shoes -->
+                                <tr>
+                                    <td>Adidas Shoes</td>
+                                    <td>$500</td>
+                                    <td>Due</td>
+                                    <td><span class="status return">Return</span></td>
+                                </tr>
+                                <!-- Denim Shirts -->
+                                <tr>
+                                    <td>Denim Shirts</td>
+                                    <td>$110</td>
+                                    <td>Due</td>
+                                    <td><span class="status inprogress">In Progress</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- New Customers  -->
+                    <div class="recentCustomers">
+                        <div class="cardHeader">
+                            <h2>Recent Customers</h2>
+                        </div>
+                        <table>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="./images/img1.jpg"></div></td>
+                                <td><h4>David<br><span>Italy</span></h4>
+                            </tr>
+                            <tr>
+                                <td><div class="imgBx"><img src="./images/img2.jpg"></div></td>
+                                <td><h4>Muhammad<br><span>India</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td><div class="imgBx"><img src="./images/img3.jpg"></div></td>
+                                <td><h4>Amelia<br><span>France</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td><div class="imgBx"><img src="./images/img4.jpg"></div></td>
+                                <td><h4>Olivia<br><span>USA</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td><div class="imgBx"><img src="./images/img5.jpg"></div></td>
+                                <td><h4>Amit<br><span>Japan</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td><div class="imgBx"><img src="./images/img6.jpg"></div></td>
+                                <td><h4>Ashraf<br><span>Great Britain</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td><div class="imgBx"><img src="./images/img7.jpg"></div></td>
+                                <td><h4>Romanov<br><span>Germany</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td><div class="imgBx"><img src="./images/img8.jpg"></div></td>
+                                <td><h4>Yuri<br><span>Ukraine</span></h4></td>
+                            </tr>
+                            <!-- <tr>
+                                <td></td><div class="imgBx"><img src="./images/img9.jpg"></div></td>
+                                <h4><h4>Diana</h4><br><span>Norway</span></h4></td>
+                            </tr> -->
+                        </table>
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
+        <!-- JS Icons -> `https://ionic.io/` -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            // Menu Toggle | Defining `toggle`, `navigation`, `main` 
+            let toggle = document.querySelector('.toggle');
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            // Whenever the menu button is clicked it toggles with an additional toggle `active` class
+            toggle.onclick = function() {
+                navigation.classList.toggle('active');
+                main.classList.toggle('active');
+            }
+
+            // ADD Hovered Class in Selected List Item
+            // Define the list item variable
+            let list = document.querySelectAll('.navigation li')
+            // create a function `activeLink` for each `list.foreach` 
+            // will remain hovered just like the mouse will select it
+            function activeLink(){
+                list.forEach((item) =>
+                item.classList.remove('hovered'));
+                this.classList.add('hovered');
+            }
+            // an `addEventListener` for the `mouseover` param, with an `activeLink` argument
+            list.forEach((item) =>
+            item.addEventListener('mouseover', activeLink));
+        </script>
+    </body>
+</html>
